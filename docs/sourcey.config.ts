@@ -2,6 +2,7 @@ import { defineConfig } from "sourcey";
 
 export default defineConfig({
   name: "moxygen",
+  prettyUrls: "strip",
   repo: "https://github.com/nilstate/moxygen-docs",
   editBranch: "main",
   editBasePath: "docs",
